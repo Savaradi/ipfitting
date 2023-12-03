@@ -30,7 +30,7 @@ ip_fit_sl <- function(datatable, targets, assumptions,
                                          drop.names = assumption.drop.names)
 
   df <- datatable %>%
-    ip_fit(targets,
+    ip_fitting(targets,
            datatable.value.name = datatable.value.name, target.value.names = target.value.names,
            max.error = max.error, max.iterations = max.iterations,
            freeze_cells = assumptions_pro[["freeze_cells"]],

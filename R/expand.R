@@ -39,7 +39,7 @@ ip_expand <- function(targets, target.value.names = "value",
   df <- ip_create_seed(targets, names.exclude = names.exclude,
                        value.set = value.set, value.name = value.name,
                        override.warning = override.warning) %>%
-    ip_fit(targets, datatable.value.name = value.name, target.value.names = target.value.names,
+    ip_fitting(targets, datatable.value.name = value.name, target.value.names = target.value.names,
            max.error = max.error, max.iterations = max.iterations,
            freeze_cells = freeze_cells, freeze_cells.value.name = freeze_cells.value.name,
            freeze_slice = freeze_slice, freeze_slice.value.names = freeze_slice.value.names,
