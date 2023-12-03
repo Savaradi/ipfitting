@@ -28,13 +28,12 @@ ip_scale <- function(datatable, target, series_start = "value", series_target = 
 
 #' Single target scale function using single data frame.
 #'
-#' Single target scale function using single data frame.
-#'
 #' @param datatable
 #' @param target_series
 #' @param series_start
 #' @param series_target
 #' @param series_type
+
 
 ip_scale_a <- function(datatable, target_series, series_start = "value", series_target = "tar1", series_type = "tar") {
 
